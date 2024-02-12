@@ -10,7 +10,7 @@
 # 0.0.1: 23.11.2017, github.com/Svamberg
 #      - initial version
 
-SMARTCHECK=/usr/local/lib/nagios/plugins/check_smart.zcu.pl
+SMARTCHECK=/usr/lib/nagios/plugins/check_smart.zcu.pl
 SMARTCTL="/usr/bin/sudo /usr/sbin/smartctl"
 #SMARTCHECK=./check_smart.zcu.pl
 SKIPMODELS="^(DELLBOSS).*$" # this will be called as: grep -qP '${SKIPMODELS}'
